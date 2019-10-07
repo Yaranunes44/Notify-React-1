@@ -1,13 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
+import Container from './Componentes/Container';
 
 const App = () => { 
   return (
-    <div className="App">
-      <PlacarContainer />
-    </div>
-  );
+    <Container />
+  )
 }
 
 export default App;
